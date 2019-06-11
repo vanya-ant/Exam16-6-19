@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Exam.Data\Exam.Data.csproj" />
+    <ProjectReference Include="..\..\..\SIS.MvcFramework\SIS.MvcFramework.csproj" />
+    <ProjectReference Include="..\Exam.Services\Exam.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="Views\Users\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Views\Shared\Validation\ValidationWidget.vwhtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

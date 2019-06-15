@@ -1,7 +1,14 @@
 ﻿namespace Exam.Data.Models
 {
+    using System;
+
     public class User
     {
+        public User()
+        {
+            this.Id = Guid.NewGuid().ToString();
+          
+        }
         public string Id { get; set; }
 
         public string Username { get; set; }

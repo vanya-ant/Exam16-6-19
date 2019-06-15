@@ -18,6 +18,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="ViewModels\Users\LoginInputModel.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="ViewModels\Users\RegisterInputModel.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Views\Shared\Validation\ValidationWidget.vwhtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
